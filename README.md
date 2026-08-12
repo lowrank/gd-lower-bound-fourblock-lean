@@ -8,9 +8,13 @@ descent trajectory whose final objective gap is at least a positive constant
 times `L * R^2 * (T + 1)^(-p)`. The dimension of the construction is at most
 `T + 1`.
 
-The Lean development accompanies a manuscript maintained separately. The
-labels in `TRACEABILITY.md` record the correspondence between that manuscript
-and the formal declarations.
+## Paper
+
+This Lean development accompanies
+[**A lower bound for stepsize-based acceleration of gradient descent**](https://arxiv.org/abs/2608.10418)
+by Jianhao Ma and Yuxin Chen (arXiv:2608.10418, 2026). The labels in
+`TRACEABILITY.md` record the correspondence between the paper and the formal
+declarations.
 
 ## Build
 
