@@ -1,6 +1,47 @@
-import GDLowerBound.Final
+import GDLowerBound
 
 #check GDLowerBound.mainTheorem
+#check GDLowerBound.FourBlock.exactEnvelopeMainTheorem
+#check GDLowerBound.FourBlock.sharperMainTheorem
 #print axioms GDLowerBound.mainTheorem
+#print axioms GDLowerBound.FourBlock.exactEnvelopeMainTheorem
+#print axioms GDLowerBound.FourBlock.sharperMainTheorem
+#print axioms GDLowerBound.FourBlock.sharperNormalizedLowerBound
+#print axioms GDLowerBound.FourBlock.dyadicScan_normalizedFunctional
+#print axioms GDLowerBound.FourBlock.dyadicScanStep
+#print axioms GDLowerBound.FourBlock.exactEnvelopeNormalizedLowerBound
+#print axioms GDLowerBound.FourBlock.chronologicalEdgeKernelProduct_lt_one_of_zeta_le
+#print axioms GDLowerBound.FourBlock.scheduleSharpRigidityBudget
+#print axioms GDLowerBound.FourBlock.scheduleMomentRigidityBudget
+#print axioms GDLowerBound.FourBlock.fixedDilationHarmonicSample_le
+#print axioms GDLowerBound.FourBlock.endpointDefect_fixedDilationHarmonicSample
+#print axioms GDLowerBound.FourBlock.squareDeviation_fixedDilationHarmonicSample
+#print axioms GDLowerBound.FourBlock.dilationBlockH_upper
+#print axioms GDLowerBound.FourBlock.sum_middleBlocks_eq_occupancy
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_two_sub_log_abs_le
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_three_sub_log_abs_le
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_two_le_log_add
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_three_le_log_add
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_two_weighted_deficit_le
+#print axioms GDLowerBound.FourBlock.middleBlockOccupancy_three_weighted_deficit_le
+#print axioms GDLowerBound.FourBlock.averagedEnergyBudget_add_errors_lt_robustLocalGap
+#print axioms GDLowerBound.FourBlock.sum_two_occupancy_weighted_deficit_le
+#print axioms GDLowerBound.FourBlock.averagedDilationBlock_two_upper
+#print axioms GDLowerBound.FourBlock.averagedScheduleEnergy_upper
+#print axioms GDLowerBound.FourBlock.commonMomentRigidityBudget
+#print axioms GDLowerBound.FourBlock.commonSharpRigidityBudget
+#print axioms GDLowerBound.FourBlock.normalizedAveragedScheduleEnergy_lt_robustLocalGap
+#print axioms GDLowerBound.FourBlock.normalizedAveraging_forces_small_scale
+#print axioms GDLowerBound.FourBlock.normalizedErrorBudget_le_window
+#print axioms GDLowerBound.FourBlock.dyadic_averagingHarmonicWeight_lower
+#print axioms GDLowerBound.FourBlock.massExponent_le_effectiveMeanGrowth_of_log_ratio
+#print axioms GDLowerBound.FourBlock.controlAveragingError_le_inv
+#print axioms GDLowerBound.FourBlock.dilationBlockUpperRemainder_le_inv
+#print axioms GDLowerBound.FourBlock.endpointDefectSamplingError_dyadic_le
+#print axioms GDLowerBound.FourBlock.sum_twoOccupancyFiniteError_le
+#print axioms GDLowerBound.FourBlock.normalizedScheduleAveragingError_dyadic_le
+#print axioms GDLowerBound.FourBlock.fourBlockWindowError_dyadic_le
+#print axioms GDLowerBound.FourBlock.exists_dyadicFourBlockWindow
+#print axioms GDLowerBound.FourBlock.finiteWindowEndpointGrowth_forces_small_scale
 #print axioms GDLowerBound.functionalAttainment
 #print axioms GDLowerBound.RankAnalysis.normalizedFloorTheorem
