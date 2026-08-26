@@ -129,6 +129,16 @@ rg -n --glob '*.lean' \
 rg -n --glob '*.lean' 'sorryAx' .
 ```
 
+The proof blueprint can be generated locally with
+
+```sh
+leanblueprint all
+```
+
+This compiles the printable PDF and web version, builds the Lean project, and
+checks every Lean declaration referenced by the blueprint.  Generated files
+are written under `blueprint/print/` and `blueprint/web/`.
+
 The development contains no `sorry`, `admit`, project `axiom`, `unsafe`,
 `implemented_by`, or `opaque` declarations. `#print axioms` for the
 sharper theorem reports Lean's ordinary logical foundations together with
