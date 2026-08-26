@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build Lean project
         uses: leanprover/lean-action@v1
@@ -30,7 +30,10 @@ jobs:
           auto-config: false
           build: true
           use-mathlib-cache: true
-          use-github-cache: true
+          # The complete .lake directory is about 8.4 GB. Archiving it exhausts
+          # the hosted runner's disk after a successful build, so retain only
+          # mathlib's upstream cache and rebuild the project modules each run.
+          use-github-cache: false
 
       - name: Audit theorem dependencies
         run: lake env lean AxiomAudit.lean
