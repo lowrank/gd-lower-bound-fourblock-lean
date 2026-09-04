@@ -1,6 +1,14 @@
 # A sharper Lean 4 lower bound for gradient descent
 
-This repository proves a finite-horizon lower bound for gradient descent with
+
+
+**NOTE**: We are aware there are better bounds available now:
+
+- ``sqrt(3)``: https://chungentsai.github.io/gd-lower-bounds.html
+- ``1.635``: arXiv:2609.02855
+- ``1.450``: arXiv:2609.04032
+
+This repository records and proves a finite-horizon lower bound for gradient descent with
 an arbitrary predetermined nonnegative step-size schedule. Its new four-block
 theorem lowers the formally verified exponent threshold from the original
 Ma--Chen value
@@ -14,6 +22,7 @@ to the exact rational Lean target
 ```text
 45720 / 25000 = 1.8288.
 ```
+
 
 More precisely, `GDLowerBound.FourBlock.sharperMainTheorem` proves that for
 every `1.8288 < p < 2` there is a constant `c > 0` such that, for every
